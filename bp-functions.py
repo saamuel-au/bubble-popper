@@ -3,7 +3,6 @@ import pygame
 import random
 import time
 from bp_bubble import Bubble
-
 #add additional user event
 pygame.init()
 ADDBUBBLE = pygame.USEREVENT + 1
