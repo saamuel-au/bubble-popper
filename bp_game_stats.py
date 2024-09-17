@@ -12,3 +12,4 @@ class GameStats():
         self.level = 1
         self.health = 3
         self.bonus = 0
+
