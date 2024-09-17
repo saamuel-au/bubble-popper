@@ -38,3 +38,4 @@ def run_game():
         gf.update_screen(gm_settings, screen, player, bubbles, clock, stats, play_button, sb)
         
 run_game()
+
