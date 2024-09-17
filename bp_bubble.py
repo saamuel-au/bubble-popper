@@ -6,7 +6,6 @@ class Bubble(pygame.sprite.Sprite):
     """Class for bubble object"""
     
     
-    
     def __init__(self, screen, game_settings, isBubbleEvil):
         super(Bubble, self).__init__()
         
