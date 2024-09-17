@@ -2,8 +2,7 @@ import pygame
 
 class Player(pygame.sprite.Sprite):
     """Class for player object"""
-    
-    
+       
     def __init__(self, screen):
         """Initialize player"""
         super(Player, self).__init__()
