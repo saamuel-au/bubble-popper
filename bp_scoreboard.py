@@ -16,7 +16,6 @@ class Scoreboard():
         
         
         
-        
     def prepare_score(self):
         """Convert score to graphics component"""
         score_str = str(f"Score: {self.stats.score}")
