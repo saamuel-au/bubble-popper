@@ -1,11 +1,10 @@
 # Bubble Popper
 
-**Bubble Popper** on lõbus ja kaasahaarav mäng, kus mängija peab poppima mullid, et teenida punkte ja saavutada kõrgeim võimalik skoor. Mäng on loodud [Teie Nimi] poolt ja on ideaalne aega veetmiseks ja reaktsioonide harjutamiseks.
+**Bubble Popper** on lõbus ja kaasahaarav mäng, kus mängija peab lõhestama mullid, et teenida punkte ja saavutada kõrgeim võimalik skoor. Mäng on loodud Jakobi ja Saamueli poolt ja on ideaalne aja veetmiseks ja reaktsioonide harjutamiseks.
 
 ## Funktsioonid
 
-- Erinevad mulli tüübid ja tasemed
-- Täiendavad boonused ja erimullid
+- Erinevad tasemed
 - Lihtne ja intuitiivne mängitavus
 - Reaalajas edetabel
 
@@ -13,7 +12,10 @@
 
 Kui soovite mängu oma arvutisse installida ja mängida, järgige neid samme:
 
-1. **Kloneeri repositoorium:**
-   ```bash
-   git clone https://github.com/teie-kasutajanimi/bubble-popper.git
+Linux: **klooni repositoorium:**
+   https://github.com/saamuel-au/bubble-popper.git
+Windows: **instaleerige ZIP-fail**
+   Veenduge, et teie Windowsil oleks installitud Pythoni uusim versioon.
+   instaleerige ZIP-fail ja seejärel käivitage fail nimega "game.py".
+  
 
