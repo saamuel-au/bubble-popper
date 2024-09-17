@@ -12,9 +12,9 @@
 
 Kui soovite mängu oma arvutisse installida ja mängida, järgige neid samme:
 
-Linux: **klooni repositoorium:**
+###Linux: **klooni repositoorium:**
    https://github.com/saamuel-au/bubble-popper.git
-Windows: **instaleerige ZIP-fail**
+###Windows: **instaleerige ZIP-fail**
    Veenduge, et teie Windowsil oleks installitud Pythoni uusim versioon.
    instaleerige ZIP-fail ja seejärel käivitage fail nimega "game.py".
   
