@@ -9,11 +9,9 @@ class Player(pygame.sprite.Sprite):
         
         self.screen = screen
         self.screen_rect = screen.get_rect()
-        
         self.player = pygame.Surface((75, 25))
-        self.player.fill((255, 0, 0))
+        self.player.fill((250, 128, 114))
         self.rect = self.player.get_rect()
-        
         self.moving_right = False
         self.moving_left = False
         self.moving_up = False
