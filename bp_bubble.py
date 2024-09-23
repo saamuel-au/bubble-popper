@@ -1,6 +1,6 @@
 import random
 import pygame
-from bp_player import Player
+from player import Player
 
 class Bubble(pygame.sprite.Sprite):
     """Class for bubble object"""
@@ -11,19 +11,18 @@ class Bubble(pygame.sprite.Sprite):
         
         self.screen = screen
         self.screen_rect = screen.get_rect() 
-        
         self.isevil = isBubbleEvil # does the bubble damage the player?
         if self.isevil == True:
             self.color = (255, 0, 0)
         else:
-            self.color = (255, 255, 255)
+            self.color = (0, 0, 255)
         
         self.bubble_radius = random.randint(game_settings.bubble_min_r, game_settings.bubble_max_r)
         
-        self.bubble = pygame.Surface((self.bubble_radius * 2, self.bubble_radius * 2), pygame.SRCALPHA)
+        
+        self.bubble = pygame.Surface((self.bubble_radius * 2, self.bubble_radius * 2), 	pygame.SRCALPHA)
         
         self.bubble.set_colorkey(game_settings.bg_color)
-        
         self.bubble.set_alpha(128)
         
         self.rect = pygame.draw.circle(
@@ -41,7 +40,7 @@ class Bubble(pygame.sprite.Sprite):
             )
         self.speed = random.randint(1, 5)
         
-        self.evilspeed = random.randint(8, 12)
+        self.evilspeed = random.randint(6, 8)
     
     def update(self):
         if self.isevil:
